@@ -1,6 +1,8 @@
 package com.example.postobon;
 
-public class Trabajador {
+import java.io.Serializable;
+
+public class Trabajador implements Serializable {
     String nombreTrabajador;
     int fotoTrabajador;
 

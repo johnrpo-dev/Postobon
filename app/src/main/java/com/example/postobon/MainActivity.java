@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     EditText cajahoras;
     TextView cajaresultado;
     Button botonCalcular;
+    Trabajador trabajador;
+
+    ImageView fotoEmpleado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
         cajahoras = findViewById(R.id.numeroHoras);
         cajaresultado = findViewById(R.id.resultado);
         botonCalcular = findViewById(R.id.calcular);
+        fotoEmpleado = findViewById(R.id.imageView);
+
+        //3.enlazar el atributo trabajador con los datos que llegan del adaptador
+        trabajador = (Trabajador) getIntent().getSerializableExtra("datosTrabajador");
+
+        //4.utilizar los datos del trabajador para cargar los recursos
+        fotoEmpleado.setImageResource(trabajador.getFotoTrabajador());
 
         botonCalcular.setOnClickListener(new View.OnClickListener() {
             @Override

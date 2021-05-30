@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Postobon</string>
+    <string name="Editext">Type the number of hours</string>
+    <string name="botonCalcular">Calculate</string>
+
+    <string name="opcion1"> About us</string>
+    <string name="opcion2"> English</string>
+    <string name="opcion3"> Spanish </string>
+
+
+    <string name="descripcion">Hello, my name is John Restrepo, I am a software development student at the Medellín institute,
+         I am currently in the third semester </string>
+
+
+</resources>

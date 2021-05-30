@@ -84,5 +84,6 @@ public class Home extends AppCompatActivity {
         listadeTrabajadores.add(new Trabajador("Martha Nielsen", R.drawable.avatar3));
         listadeTrabajadores.add(new Trabajador("Byron Mosquera", R.drawable.avatar4));
 
+        //prueba
     }
 }

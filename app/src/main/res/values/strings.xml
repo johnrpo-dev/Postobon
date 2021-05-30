@@ -7,6 +7,8 @@
     <string name="opcion1"> Acerca de </string>
     <string name="opcion2"> Ingles </string>
     <string name="opcion3"> Español </string>
+    <string name="opcion4"> Aleman </string>
+
 
     <string name="descripcion">Hola mi nombre es John Restrepo, soy estudiante de Desarrollo de software en el institu cesde de Medellín,
     actualmente estoy en el tercer semestre </string>
